@@ -40,4 +40,5 @@ function fromYenToPound(yen) {
     return parseFloat(pounds.toFixed(3));
 }
 
+
 module.exports = { fromEuroToDollar, fromDollarToYen, fromYenToPound };
